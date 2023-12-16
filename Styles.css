@@ -1,0 +1,99 @@
+ 
+        @media (min-width:200px) and (max-width:900px){
+            
+         }
+        .webpage{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        .left-side{
+            background-color:rgba(166, 181, 196, 0.507);
+            
+            margin-right: 2px;
+            border: 10px;
+           
+        }
+        .left-side p{
+            font-style: normal;
+        }
+        .right-side{
+            background-color:hwb(0 100% 0%);
+            margin-left: 5px;
+
+        }
+
+        div   h1, h4, h2, h3, h5 {
+            margin-left: 10px;
+            text-align: left;
+        }
+        div p{
+            margin-left: 20px;
+        }
+
+        div .right-side {
+            font-style: normal;
+        }
+
+
+        img{
+            padding: 4px;
+            background-color:   rgba(62, 102, 150, 0.692);
+            border-radius: 20%;
+            float: left;
+            margin-left: 10px;
+        
+        }
+
+        h1{
+            color: rgba(0, 0, 128, 0.87);
+            text-align: left;
+            text-decoration-line: underline;
+            font-size: 1.5rem;
+        }
+        h4{
+            color: rgba(0, 0, 128, 0.87);
+            font-size: 1rem;
+        }
+        
+        h3{
+            color: rgba(0, 0, 128, 0.87);
+        }
+        h5 {
+            color: rgba(0, 0, 128, 0.87);
+            font-size: 1rem;
+            
+        }
+       
+        p{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1rem;
+        }
+        .about_myself >p, h3{
+            text-align: right;
+            font-size: 1.1rem;
+            padding-right: 10px;
+            
+        }
+    
+        
+        .about_myself > h1{
+            text-align: center;
+            text-decoration: none;
+            font-size: 2.8rem;
+            color: rgb(255, 255, 255);
+            background-color: rgba(1, 46, 104, 0.932);
+            border-radius:  10px;
+        }
+        
+        
+        div .about_myself{
+            background-color: rgb(197, 197, 197);
+
+        }
+        .vertical_line{
+            border-left: 6px solid rgba(79, 108, 143, 0.87) ;
+            height: 1805px;
+            position: absolute;
+            left: 50%;
+        }
